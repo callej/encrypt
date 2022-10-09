@@ -1,5 +1,5 @@
 # encrypt
-A small program that performs simple encryption to text by shifting characters a number of steps. There are two possible algoritms to choose from. One is the Caesar cipher
+A small program that performs simple encryption of text by shifting characters a number of steps. There are two possible algoritms to choose from. One is the Caesar cipher
 that shifts only through the US alphabet and keeping the letter case. The other shifts through the 16-bit unicode characters. 
 This project is part of JetBrains Academy's Basic Kotlin Track.
 
