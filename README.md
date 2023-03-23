@@ -11,6 +11,9 @@ The program uses command line arguments as follows:
 * -in <filename>, where <filename> is the path and the name of the file where the text is to be encrypted or decrypted depending on the mode argument. If both the -data arguemnt and the -in argument exists then the -data argument is used.
 * -out <filename>, where <filename> is the path and the name of the file where the result of the encrypted or decrypted text are stored. If no -out argument exists then the result is printed on the screen.
 
+
 Example of usage:
+
 encrypt -mode enc -in road_to_treasure.txt -out protected.txt -key 5 -alg unicode
+
 encrypt -key 5 -alg shift -data "Welcome to hyperskill!" -mode enc
